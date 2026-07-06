@@ -1,0 +1,52 @@
+@config "../tailwind.config.ts";
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050816;
+  color: #ffffff;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #0de5ff, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.star {
+  position: absolute;
+  background: #fff;
+  border-radius: 9999px;
+  animation: twinkle 4s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.9; }
+}
+
+@keyframes pulse-ring {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.12); opacity: 0.6; }
+}
+
+.pulse-ring {
+  animation: pulse-ring 1.8s ease-in-out infinite;
+}
+
+/* d3 hub node cursor + hover handled inline via classes, this covers the SVG text */
+.hub-svg text {
+  font-family: var(--font-orbitron), sans-serif;
+  fill: #ffffff;
+  user-select: none;
+}
+
+.hub-svg .node-circle {
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
