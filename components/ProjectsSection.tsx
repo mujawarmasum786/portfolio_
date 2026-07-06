@@ -13,9 +13,9 @@ export default function ProjectsSection() {
         Projects
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-        {projects.map((p) => (
+        {projects?.map((p) => (
           <div
-            key={p.title}
+            key={p?.title}
             className="bg-panel border border-line rounded-2xl p-6 hover:border-cyan hover:-translate-y-1 transition-all"
           >
             <div
