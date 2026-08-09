@@ -151,7 +151,7 @@ export const levelColors: Record<string, string> = {
 
 export const experience = [
   {
-    year: "MARCH-2024",
+    year: "MARCH-2022",
     role: "Software Engineer",
     company: "Teqfocus",
     location: "Pune",
