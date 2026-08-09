@@ -151,23 +151,14 @@ export const levelColors: Record<string, string> = {
 
 export const experience = [
   {
-    year: "OCT-2024",
+    year: "MARCH-2024",
     role: "Software Engineer",
     company: "Teqfocus",
     location: "Pune",
     description:
       "Designed, developed, and maintained scalable web and mobile applications across multiple platforms.",
     award: "Customer Excellence Award",
-  },
-
-  {
-    year: "MARCH-2022",
-    role: "Associate Software Engineer",
-    company: "Teqfocus",
-    location: "Pune",
-    description:
-      "Learned and developed multiple software projects using modern web technologies.",
-  },
+  }
 ];
 
 export const education = [
