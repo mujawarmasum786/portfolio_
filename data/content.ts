@@ -103,7 +103,7 @@ export const skillCategories = [
       { name: "React", short: "⚛", level: "expert" },
       { name: "Next.js", short: "N", level: "expert" },
       { name: "Angular", short: "A", level: "intermediate" },
-      { name: "TypeScript", short: "TS", level: "intermediate" },
+      { name: "TypeScript", short: "TS", level: "advanced" },
     ],
   },
   {
@@ -122,8 +122,8 @@ export const skillCategories = [
     icon: "🗄",
     color: "#8b5cf6",
     items: [
-      { name: "MongoDB", short: "🍃", level: "intermediate" },
-      { name: "MySQL", short: "🐬", level: "beginner" },
+      { name: "MongoDB", short: "🍃", level: "advanced" },
+      { name: "MySQL", short: "🐬", level: "intermediate" },
     ],
   },
   {
@@ -133,7 +133,7 @@ export const skillCategories = [
     color: "#f5a623",
     items: [
       { name: "AWS", short: "☁️", level: "intermediate" },
-      { name: "Twilio", short: "T", level: "intermediate" },
+      { name: "Twilio", short: "T", level: "advanced" },
       { name: "D3.js", short: "D3", level: "expert" },
       { name: "Git", short: "git", level: "advanced" },
       { name: "OpenAI", short: "✦", level: "advanced" },
