@@ -20,6 +20,17 @@ export const hubNodes = [
 ];
 
 export const projects = [
+   {
+    title: "Flow Builder",
+    description:
+      "An interactive flowchart editor (Next.js, TypeScript, D3.js) supporting drag-and-drop nodes, live-connected edges, force-directed auto-layout, and JSON/PNG export.",
+    icon: "🔀",
+    color: "#8b5cf6",
+    tags: ["Next.js", "React.js", "D3.js"],
+    demoUrl:
+      "https://flow-builder-psi-teal.vercel.app/flow-builder",
+    githubUrl: "",
+  },
   {
     title: "Portfolio",
     description:
