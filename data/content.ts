@@ -23,7 +23,7 @@ export const projects = [
    {
     title: "Flow Builder",
     description:
-      "An interactive flowchart editor (Next.js, TypeScript, D3.js) supporting drag-and-drop nodes, live-connected edges, force-directed auto-layout, and JSON/PNG export.",
+      "An interactive flowchart editor (Next.js, TypeScript, D3.js) supporting drag-and-drop nodes, live-connected edges and JSON/PNG export.",
     icon: "🔀",
     color: "#8b5cf6",
     tags: ["Next.js", "React.js", "D3.js"],
