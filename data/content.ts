@@ -123,6 +123,7 @@ export const skillCategories = [
     color: "#0de5ff",
     items: [
       { name: "React", short: "⚛", level: "expert" },
+      { name: "React Native", short: "⚛", level: "expert" },
       { name: "Next.js", short: "N", level: "expert" },
       { name: "Angular", short: "A", level: "intermediate" },
       { name: "TypeScript", short: "TS", level: "advanced" },
