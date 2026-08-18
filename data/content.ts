@@ -20,6 +20,17 @@ export const hubNodes = [
 ];
 
 export const projects = [
+  {
+    title: "Network Path",
+    description:
+      "Interactive network path visualization built with Next.js, TypeScript, and D3.js.The application visualizes how BFS (Breadth-First Search) and DFS (Depth-First Search) traverse a network and find routes between two nodes.",
+    icon: "🕸️",
+    color: "#8b5cf6",
+    tags: ["Next.js", "React.js", "D3.js"],
+    demoUrl:
+      "https://network-path.vercel.app/",
+    githubUrl: "",
+  },
    {
     title: "Flow Builder",
     description:
